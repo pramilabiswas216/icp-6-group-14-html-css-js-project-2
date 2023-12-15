@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f1f1f1;
+}
+.about-us{
+    padding: 100px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.img-section{
+    fkex:1;
+    text-align: center;
+}
+.img-section img{
+    max-width: 100%;
+    height: auto;
+}
+.content-section{
+    flex: 1;
+    margin-left: 40px;
+}
+.content-section h2{
+     font-size: 35px;
+     margin-bottom: 20px;
+}
+.content-section p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.content{
+    text-align: center;
+}
