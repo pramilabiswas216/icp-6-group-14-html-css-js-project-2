@@ -1,0 +1,9 @@
+.body{background-color:pink}
+.heading{background-color: rgb(200, 156, 241);font-size: 60px;border:10px double rgb(56, 3, 105) ;border-radius:50px ;display: flex;justify-content: center;color: white;}
+.product-card{height:450px;width:350px;background-color:fuchsia;box-shadow: 20px white;border-radius: 30px;padding: 1%;}
+.img{height: 200px;width: 280px;border-radius:30px ;margin:20px;margin-left:10%;}
+.product-title{display: flex;justify-content: center;font-size: 40px;margin: 10px;color:white;}
+.product-description{font-size: 20px;color:white;}
+.product-price{font-size: 30px;color:white ;display: flex;justify-content: center;}
+.product-container{display: flex;flex-direction: row;margin: 10px;flex-wrap: wrap;justify-content: space-between;margin: 5px;padding: 10px;}
+.product-card:hover{cursor:pointer ;border-radius:60px ;background-color: blueviolet;box-shadow :10px; ;}
