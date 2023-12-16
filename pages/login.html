@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: rgb(233, 232, 232);
+        }
+    
+        .form-container{
+            height: 300px;
+            width: 320px;
+            background-color: white;
+            border-radius:5px;
+            margin-top: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 70px;
+            box-shadow: 2px 2px 9px 5px rgb(158, 158, 158);
+    
+          
+        }
+        .top_fix_line{
+            background-color: white;
+            padding: 15px 650px;
+            top: 0px;
+            position: fixed;
+            flex-direction:row-reverse;
+            justify-content:space-between;
+            
+        }
+        
+    
+        .top_btn{
+           background-color: white;
+           border: 1px solid rgb(0, 140, 255) ;
+           border-radius: 10px;
+           font-weight: bold;
+           cursor: pointer;
+           width: 100px;
+           padding: 8px 20px;
+           text-align: center;
+           color: rgb(0, 140, 255);
+           margin-left: 480px;
+          
+        }
+    
+        .top1_btn{
+            background-color: rgb(0, 140, 255);
+           border-radius: 10px;
+           font-weight: bold;
+           cursor: pointer;
+           width: 150px;
+           padding: 10px 30px;
+           text-align: center;
+           color: white;
+           margin-top: 50px;
+           margin-left: 600px;
+           
+        }
+    
+        .btn_login{
+           background-color: rgb(0, 140, 255);
+           border-radius: 10px;
+           font-weight: bold;
+           cursor: pointer;
+           width: 100px;
+           padding: 8px 100px;
+           align-items: center;
+           color: white;
+           margin-right: 50px;
+           border: 1px solid  rgb(0, 140, 255) ;
+           cursor: pointer;
+           
+    
+        }
+    
+        .registration-form{
+            font-size:20px ;
+            padding-top: -10px;
+            margin-left: 60px;
+           
+         }
+    
+         .text-menu{
+            cursor: pointer;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 3px 5px;
+            border: 1px solid  rgb(0, 140, 255);
+         }
+    
+         .next_page{
+            margin-left: 70px;
+         }
+    
+         .text-menu:hover{
+          box-shadow: 0px 0px 8px 2px rgb(128, 194, 248);
+         }
+    
+         .top_btn:hover{
+          background-color: rgb(0, 140, 255) ;
+          color: white;
+         
+         }
+    
+         .top1_btn:hover{
+          background-color: white ;
+          color: rgb(0, 140, 255);
+          border: 1px solid  rgb(0, 140, 255) ;
+         
+         }
+    
+    </style>
+    </head>
+    <body>
+    
+            <div class="top_fix_line">
+               <span class="top1_btn">login</span>
+               <span class="top_btn">SignUp</span>
+            </div>
+    
+            <div class="form-container">
+    
+                <form class="registration-form">
+    
+                    Email:<br/>
+                    <input type="email" placeholder="Email or phone number" required class="text-menu"><br/><br/>
+                
+                    Password:<br/>
+                    <input type="password" placeholder="password" required class="text-menu"><br/><br/>
+                
+                    <button class="btn_login">LogIn</button>
+            
+                </form>
+    
+                <p class="next_page">Don't have an account? <a href="signup.html"> Sign Up</a></p>
+                </div>
+   
+</body>
+</html>
