@@ -4,72 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
-    <style>
-
-        body{
-            padding: 0;
-            margin: 0;
-            background-color: rgb(233, 232, 232);
-        }
-    
-        .form-container{
-            height: 300px;
-            width: 320px;
-            background-color: white;
-            border-radius:5px;
-            margin-top: 150px;
-            margin-left: auto;
-            margin-right: auto;
-            padding-top: 70px;
-            box-shadow: 2px 2px 9px 5px rgb(158, 158, 158);
-    
-          
-        }
-       
-    
-        .btn_login{
-           background-color: rgb(0, 140, 255);
-           border-radius: 10px;
-           font-weight: bold;
-           cursor: pointer;
-           width: 100px;
-           padding: 8px 100px;
-           align-items: center;
-           color: white;
-           margin-right: 50px;
-           border: 1px solid  rgb(0, 140, 255) ;
-           cursor: pointer;
-           
-    
-        }
-    
-        .registration-form{
-            font-size:20px ;
-            padding-top: -10px;
-            margin-left: 60px;
-           
-         }
-    
-         .text-menu{
-            cursor: pointer;
-            font-size: 15px;
-            border-radius: 5px;
-            padding: 3px 5px;
-            border: 1px solid  rgb(0, 140, 255);
-         }
-    
-         .next_page{
-            margin-left: 70px;
-         }
-    
-         .text-menu:hover{
-          box-shadow: 0px 0px 8px 2px rgb(128, 194, 248);
-         }
-    
-    </style>
+    <link rel="stylesheet" type="text/css" href=".././css/login.css">
     </head>
     <body>
+        <div class="home" >
+
+            <div class="container" onclick="value()">
+                
+                   <div class="navbar" id="navbar">
+                
+                          <div class="logo">
+                             <img src=".././img/home-img/e_logo1.png" width="170" >
+                         </div>
+                          <nav>
+                            <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#products">PRODUCT</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#">LOGIN/SIGNUP</a></li>
+                         </ul>
+                      <img src=".././img/home-img/carticon1.png" width="30px" height="25px">
+                     </nav>
+        
+                </div>
+            </div>
     
+  </div>
             <div class="form-container">
     
                 <form class="registration-form">
@@ -82,7 +43,7 @@
                 
                     <button class="btn_login">LogIn</button>
             
-                </form>
+                </form><br/>
     
                 <p class="next_page">Don't have an account? <a href="signup.html"> Sign Up</a></p>
                 </div>
