@@ -1,0 +1,205 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/* .home{
+	
+
+} */
+.row{
+	margin-top: 70px;
+}
+.container{
+	background: linear-gradient(to bottom right,#0D010E 10%,#350C34 20%,#652761,#8F4787,#BC86B9);
+	width: 100%;	
+	
+	
+}
+.navbar{
+	background: linear-gradient(to bottom right,#0D010E 10%,#350C34 20%,#652761,#8F4787,#BC86B9);
+
+	width: 100%;
+	position: fixed;
+	top: 0px; 
+	left: 0px; 
+	height: 100px;
+	display: flex;
+	align-items: center;
+	z-index: 5;
+/*	padding: 20px;*/
+}
+nav{
+	position: sticky;
+	top: 0px;
+	flex: 1;
+	text-align: right;
+	margin-right: 50px;
+	
+}
+nav a{
+	text-decoration: none;
+	color: #F6CACA;
+}
+nav a:hover{
+	color: #ff0088;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+nav ul{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li{
+	font-size: 20px;
+	display: inline-block;
+	margin-right: 25px;
+	margin-top: 0px;
+}
+nav ul li:hover{
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 2px 9px;
+	
+}
+.col-2 a{
+	text-decoration: none;
+	color: #F6CACA;
+}
+.col-2 h1{
+	color: #8AF8F7;
+}
+p{
+	color:  #F6CACA;
+	text-transform: capitalize;
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.col-2{
+	min-width: 200px;
+}
+
+.col-2 img{
+	max-width: 100%;
+	padding: 50px 0px;
+}
+
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0px;
+}
+
+.col-2 a{
+	background-image: url('./img/home-img/rightarrow.png');
+	background-repeat: no-repeat;
+	background-size: 30px 20px;
+	background-position: center right;
+}
+
+.btn{
+	display: inline-block;
+	background: #E6190F;
+	color: white;
+	padding: 8px 30px;
+	margin: 30px 0px;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+
+.btn:hover{
+	background: #226807;
+}
+
+
+/* Features css start here */
+.heading{
+	text-align: center;
+	margin-top: 30px;
+}
+
+h3{
+	text-align: center;
+	font-size: 30px;
+	margin:0;
+	padding-top: 10px;
+
+}
+.kid-img{
+	width: 200px;
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0;
+}
+.content{
+	width: 22%;
+	margin: 15px;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	/* border: 3px solid red; */
+	/* border: 3px dolid grey; */
+	border-radius: 20px;
+	cursor: pointer;
+	padding-top: 10px;
+	/* justify-content: space-evenly; */
+	box-shadow: 0 0 2px 3px #858383;
+	transition: -4s;
+
+}
+.content:hover{
+	box-shadow: 0 3px 6px #5a5656;
+	transform: translate(0px, -8px);
+}
+.more-btn{
+	text-align: center;
+	font-size: 20px;
+	width: 100%;
+	padding: 15px;
+	cursor: pointer;
+	margin-top: 5px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius:20px ;
+	background-color: #8F4787;
+}
+.arival-card{
+	margin: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.card-details{
+	display: flex;
+	flex-wrap: wrap;
+    width: 15%;
+	box-shadow: 0 0 2px 1px;
+	position: relative;
+}
+.heart-img{
+	width: 20px;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+
+}
+.card-description{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.new-img{
+	width: 100%;
+}
+.new-img1{
+	width: 30%;
+}
