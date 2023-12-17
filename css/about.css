@@ -16,15 +16,32 @@ body{
     justify-content: center;
     align-items: center;
 }
-.img-section{
-    flex:1;
-    text-align: center;
-}
-.img-section img{
-    max-width: 100%;
-    height: auto;
+
+.image-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-top: 50px;
+
 }
+.image{
+    background-color: #BC86B9;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 3px #833a82;
+
+}
+
+.img1{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+
 .content-section{
     flex: 1;
     margin-left: 40px;
@@ -107,4 +124,23 @@ nav ul li:hover{
 	border-radius: 50%;
 	padding: 2px 9px;
 	
+}
+
+.offer{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.image:hover{
+    cursor: pointer;
+}
+.image:active{
+    transform: scale(0.8);
+}
+
+.img1{
+	width: 100%;
+    height: 100%;
 }
