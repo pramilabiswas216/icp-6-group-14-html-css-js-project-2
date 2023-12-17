@@ -17,12 +17,13 @@ body{
     align-items: center;
 }
 .img-section{
-    fkex:1;
+    flex:1;
     text-align: center;
 }
 .img-section img{
     max-width: 100%;
     height: auto;
+    margin-top: 50px;
 }
 .content-section{
     flex: 1;
@@ -38,4 +39,72 @@ body{
 }
 .content{
     text-align: center;
+}
+.sec-content{
+    text-align: center;
+    font-size: 40px;
+}
+.section1 .video{
+    width:70%;
+    height:100%;
+    margin: 30px auto 0 auto;
+}
+.section1 .video video{
+    width:80%;
+    height:20%;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+
+.container{
+	width: 100%;	
+	
+	
+}
+.navbar{
+	background: linear-gradient(to bottom right,#0D010E 10%,#350C34 20%,#652761,#8F4787,#BC86B9);
+
+	width: 100%;
+	position: fixed;
+	top: 0px; 
+	left: 0px; 
+	height: 100px;
+	display: flex;
+	align-items: center;
+	z-index: 5;
+/*	padding: 20px;*/
+}
+nav{
+	position: sticky;
+	top: 0px;
+	flex: 1;
+	text-align: right;
+	margin-right: 50px;
+	
+}
+nav a{
+	text-decoration: none;
+	color: #F6CACA;
+}
+nav a:hover{
+	color: #ff0088;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+nav ul{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li{
+	font-size: 20px;
+	display: inline-block;
+	margin-right: 25px;
+	margin-top: 0px;
+}
+nav ul li:hover{
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 2px 9px;
+	
 }
