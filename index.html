@@ -11,7 +11,8 @@
 
 	<div class="home" >
 
-	<div class="container" onclick="value()">
+	<div class="container"  onclick="value()" 
+    style="width: 100%;">
 		
 		   <div class="navbar" id="navbar">
 		
@@ -19,26 +20,29 @@
 			         <img src="./img/home-img/e_logo1.png" width="170" >
 		         </div>
 		          <nav>
-			        <ul>
+			        <ul id="nav-ul">
 				    <li><a href="#">HOME</a></li>
 				    <li><a href="#">ABOUT US</a></li>
 				    <li><a href="#products">PRODUCT</a></li>
 				    <li><a href="#">CONTACT</a></li>
 				    <li><a href="#">LOGIN/SIGNUP</a></li>
+                    
+                    
 			     </ul>
-			  <img src="./img/home-img/carticon1.png" width="30px" height="25px">
+                 <img src="./img/home-img/carticon1.png" width="30px" height="25px" id="cart-icon">
+                 <img src="./img/home-img/menu2.png" alt="" class="menu-icon" id="menu-bar" onclick="menu()">
 		     </nav>
-
+             
 	    </div>
 		
 
 		<div class="row">
-		<div class="col-2">
-			<h1>Now Do Shopping<br/>A New style!</h1>
+		<div class="col-2" id="col-1">
+			<h1 class="heading">Now Do Shopping<br/><span style="margin-left: -100px;">A New style!</span></h1>
 			<p>You Cannot Buy Happiness But You Can Buy Dresses & That Kind Of Same Things<br/> & Now That All Things Are Available In Online You Can Buy It From Siting Home </p>
-			<a href="" class="btn">Explore Now</a>
+			<a href="" class="btn" style="color: black;">Explore Now</a>
 		</div>
-		<div class="col-2">
+		<div class="col-2" id="col-2">
 
 			<img src="./img/home-img/e_back1.png" height="550px">
 		</div>
@@ -91,7 +95,7 @@
         <div class="special-container">
             <img src="./img/home-img/banner7.png" alt="" class="offer-img">
             <div class="special-description">
-                <h3>50% Off for Diwali/Dhantares Occasion</h3>
+                <h3 style="margin-left: 20px;">50% Off for Diwali/Dhantares Occasion</h3>
                 <h3>30% Off for Navratri Festival</h3>
                 <h3>20% Off for RakshaBandhan Ocaasion</h3>
             </div>
@@ -112,12 +116,12 @@
         <h3 class="description">Men's Shirt</h3>
       
         <div class="product">
-            <img src="./img/home-img/boys-shirt-1.jpg" alt="" class="product-img">
+            <img src="./img/home-img/boys-shirt-1.jpg" alt="" class="product-img" id="imagebox">
            
             <div class="sub-produc">
-                <img src="./img/home-img/boys-shirt-2.jpg" alt="">
-                <img src="./img/home-img/boys-shirt-1.jpg" alt="">
-                <img src="./img/home-img/boys-t-shirt3.jpg" alt="">
+                <img src="./img/home-img/boys-shirt-2.jpg" alt="" onclick="clickImg(this)">
+                <img src="./img/home-img/boys-shirt-1.jpg" alt="" onclick="clickImg(this)">
+                <img src="./img/home-img/boys-t-shirt3.jpg" alt="" onclick="clickImg(this)">
             </div>
         </div>
         <h2 class="price">Rs.500</h2>
@@ -136,11 +140,11 @@
         <h3 class="description">Traditional Shari</h3>
 
         <div class="product">
-            <img src="./img/home-img/sari-1.jpg" alt="" class="product-img">
+            <img src="./img/home-img/sari-1.jpg" alt="" class="product-img" id="imagebox-1">
             <div class="sub-produc">
-                <img src="./img/home-img/sari-1.jpg" alt="">
-                <img src="./img/home-img/sari-2.jpg" alt="">
-                <img src="./img/home-img/sari-3.jpg" alt="">
+                <img src="./img/home-img/sari-1.jpg" alt="" onclick="clickImg1(this)">
+                <img src="./img/home-img/sari-2.jpg" alt="" onclick="clickImg1(this)">
+                <img src="./img/home-img/sari-3.jpg" alt="" onclick="clickImg1(this)">
             </div>
         </div>
         <h2 class="price">Rs.500</h2>
@@ -158,11 +162,11 @@
         <h3 class="description">Girl's Jacket</h3>
 
         <div class="product">
-            <img src="./img/home-img/girls-jacket-1.jpg" alt="" class="product-img">
+            <img src="./img/home-img/girls-jacket-1.jpg" alt="" class="product-img" id="imagebox-2">
             <div class="sub-produc">
-                <img src="./img/home-img/girls-jacket-2.jpg" alt="">
-                <img src="./img/home-img/girls-jacket-1.jpg" alt="">
-                <img src="./img/home-img/girls-jacket-3.jpg" alt="">
+                <img src="./img/home-img/girls-jacket-2.jpg" alt="" onclick="clickImg2(this)">
+                <img src="./img/home-img/girls-jacket-1.jpg" alt="" onclick="clickImg2(this)">
+                <img src="./img/home-img/girls-jacket-3.jpg" alt="" onclick="clickImg2(this)">
             </div>
         </div>
         <h2 class="price">Rs.500</h2>
@@ -179,11 +183,11 @@
         <h3 class="description">Western Sari</h3>
 
         <div class="product">
-            <img src="./img/home-img/w-sari-1.jpg" alt="" class="product-img">
+            <img src="./img/home-img/w-sari-1.jpg" alt="" class="product-img" id="imagebox-3">
             <div class="sub-produc">
-                <img src="./img/home-img/w-sari-1.jpg" alt="">
-                <img src="./img/home-img/w-sari-2.jpg" alt="">
-                <img src="./img/home-img/w-sari-3.jpg" alt="">
+                <img src="./img/home-img/w-sari-1.jpg" alt="" onclick="clickImg3(this)">
+                <img src="./img/home-img/w-sari-2.jpg" alt="" onclick="clickImg3(this)">
+                <img src="./img/home-img/w-sari-3.jpg" alt="" onclick="clickImg3(this)">
             </div>
         </div>
         <h2 class="price">Rs.500</h2>

@@ -1,9 +1,26 @@
 function value(){
     let navbar = document.getElementById("navbar");
-    navbar.style.backgroundColor="black";
+    navbar.style.backgroundColor ="black";
 }
 
+var res = true;
+function menu() {
+    let menuBar = document.getElementById("nav-ul");
+    if (res) {       
+        menuBar.style.display = "block";
+    }
+    else{
+        menuBar.style.display = "none";
+    }
+    res =!res;
+}
+
+
+
+
 // ++++++++++++liked jss
+
+
 let state = true;
         function imageChange(){
             var heartElement = document.getElementById("img-heart-1");
@@ -160,5 +177,23 @@ let state = true;
     let subscribeBtn =document.getElementById("Subscribe=-btn");
     function clickBtn(){
         alert("You have succesfully subscribe");
-    }        
+    }    
+    
+    // +++++++++++++product img+++++++++++++++
+    function clickImg(subProduc){
+        var fullImg = document.getElementById("imagebox");
+        fullImg.src = subProduc.src
+    }
+    function clickImg1(subProduc){
+        var fullImg = document.getElementById("imagebox-1");
+        fullImg.src = subProduc.src
+    }
+     function clickImg2(subProduc){
+         var fullImg = document.getElementById("imagebox-2");
+         fullImg.src = subProduc.src
+     }
+     function clickImg3(subProduc){
+         var fullImg = document.getElementById("imagebox-3");
+         fullImg.src = subProduc.src
+     }
         
