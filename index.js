@@ -3,6 +3,18 @@ function value(){
     navbar.style.backgroundColor="black";
 }
 
+<<<<<<< HEAD
+
+function changeImage(){
+    let displayImage = document.getElementById("img1")
+    if(displayImage.src.match("./image1.png")){
+        displayImage.src = '.././image2.png'
+    } else{
+        displayImage.src = "./image4.png"
+    } 
+    
+}
+=======
 // ++++++++++++liked jss
 let state = true;
         function imageChange(){
@@ -162,3 +174,4 @@ let state = true;
         alert("You have succesfully subscribe");
     }        
         
+>>>>>>> 1ea69fbbe719a1edb113016670ba956f7cf2e12e
