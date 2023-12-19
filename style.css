@@ -56,11 +56,11 @@ nav{
 }
 nav a{
 	text-decoration: none;
-	/* color: #F6CACA; */
-	color: #0D010E;
+	color: #F6CACA;
+	/* color:white; */
 }
 nav a:hover{
-	color:black;
+	color:#ff0088;
 	transform: scale(1.1);
 	transition: 0.5s;
 	padding: 5px 7px;
@@ -195,7 +195,7 @@ h3{
 	margin-top: 5px;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius:20px ;
-	background-color: #8F4787;
+	background-color: purple;
 }
 
 
@@ -246,6 +246,7 @@ h3{
 		margin: 20px 20px;
 		border: 2px solid grey;
 		display: flex;
+		flex-wrap: wrap;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
@@ -310,14 +311,16 @@ h3{
 		width: 30px;
 	}
 	.buy-now-btn{
-		
+		font-size: 15px;
+		color: white;
 		width: 200px;
 		padding: 10px ;
 		border-radius: 10px;
-		background-color: blueviolet;
+		background-color:purple;
 		position: absolute;
 		bottom: 10px;
 	}
+	
 	/* ++++++++++++++++++++++++++++++Fotter Css+++++++++++++++++ */
 	.footer{
 		padding: 10px 40px;
@@ -337,11 +340,15 @@ h3{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		cursor: pointer;
 	
 	   }
 	   .sercive span{
 		display: flex;
 		align-items: center;
+	   }
+	   .sercive span:hover{
+		text-decoration: underline;
 	   }
 	   .sercive h3{
 		margin-left: -130px;
@@ -430,7 +437,21 @@ h3{
 			margin: 25px 0px 0 -220px;
 		}		
 		
-		
+		/* .card-container{
+			width: 300px;
+			height: 520px;
+			margin: 20px 20px;
+			border: 2px solid grey;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+			box-shadow: 0px 0px 5px ;
+			background-color: white;
+		   
+		} */
 
 
 
@@ -549,7 +570,8 @@ h3{
 		nav ul li{
 			font-size: 20px;
 			border: 2px solid grey;
-			background-color: white;
+			/* background-color: white; */
+			background-color: purple;
 			border-radius: 10px;
 			padding: 5px 15px;
 			color: black;

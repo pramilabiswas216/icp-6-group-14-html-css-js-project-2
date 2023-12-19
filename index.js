@@ -3,7 +3,6 @@ function value(){
     navbar.style.backgroundColor ="black";
 }
 
-<<<<<<< HEAD
 var res = true;
 function menu() {
     let menuBar = document.getElementById("nav-ul");
@@ -19,8 +18,7 @@ function menu() {
 
 
 
-=======
-<<<<<<< HEAD
+
 
 function changeImage(){
     let displayImage = document.getElementById("img1")
@@ -31,9 +29,6 @@ function changeImage(){
     } 
     
 }
-=======
->>>>>>> 09a988cfc5a8792d692456417f9b82c44af493ee
-// ++++++++++++liked jss
 
 
 let state = true;
@@ -192,7 +187,6 @@ let state = true;
     let subscribeBtn =document.getElementById("Subscribe=-btn");
     function clickBtn(){
         alert("You have succesfully subscribe");
-<<<<<<< HEAD
     }    
     
     // +++++++++++++product img+++++++++++++++
@@ -213,8 +207,5 @@ let state = true;
          fullImg.src = subProduc.src
      }
         
-=======
-    }        
-        
->>>>>>> 1ea69fbbe719a1edb113016670ba956f7cf2e12e
->>>>>>> 09a988cfc5a8792d692456417f9b82c44af493ee
+
+
