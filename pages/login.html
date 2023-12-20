@@ -18,11 +18,13 @@
                          </div>
                           <nav>
                             <ul>
-                            <li><a href="../index.html">HOME</a></li>
-                            <li><a href="../pages/about.html">ABOUT US</a></li>
-                            <li><a href="../pages/mensware.html">PRODUCT</a></li>
-                            <li><a href="../pages/contact.html">CONTACT</a></li>
-                            <li><a href="../pages/login.html">LOGIN/SIGNUP</a></li>
+                            <li><a href=".././index.html">HOME</a></li>
+                            <li><a href=".././pages/about.html">ABOUT US</a></li>
+                            <li><a href=".././pages/menswear.html">PRODUCT</a></li>
+                            <li><a href=".././pages/contact.html">CONTACT</a></li>
+                            <li><a href=".././pages/login.html">LOGIN/SIGNUP</a></li>
+
+                        
                          </ul>
                       <img src=".././img/home-img/carticon1.png" width="30px" height="25px">
                      </nav>
@@ -33,20 +35,38 @@
   </div>
             <div class="form-container">
     
-                <form class="registration-form">
+                <form class="registration-form" onsubmit="data()" action=".././index.html">
     
                     Email:<br/>
-                    <input type="email" placeholder="Email or phone number" required class="text-menu"><br/><br/>
+                    <input type="email" placeholder="Email or phone number" id="username" required class="text-menu"><br/><br/>
                 
                     Password:<br/>
-                    <input type="password" placeholder="password" required class="text-menu"><br/><br/><br/>
+                    <input type="password" placeholder="password" id="password" required class="text-menu"><br/><br/><br/>
                 
-                    <button class="btn_login">LogIn</button>
+                    <button onclick="login()" class="btn_login">LogIn</button>
             
                 </form><br/>
     
                 <p class="next_page">Don't have an account? <a href="signup.html"> Sign Up</a></p>
                 </div>
-   
+
+                     <script>
+                function login(){
+                    var uname = document.getElementById('username').value;
+                    var password = document.getElementById('password').value;
+
+                    if(uname=="" || password=="") 
+                    {
+                        alert("All field are mendatory");
+                        return false;
+                    }
+
+                    else
+                    {
+                        true;
+                    }
+                }
+                     </script>
+                
 </body>
 </html>
