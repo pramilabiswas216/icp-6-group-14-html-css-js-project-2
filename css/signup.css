@@ -22,7 +22,7 @@ body{
 }
 
 .btn_signup{
-   background-color: rgb(0, 140, 255);
+   background-color: purple;
    border-radius: 10px;
    font-weight: bold;
    cursor: pointer;
