@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f1f1f1;
+}
+
+.container{
+	width: 100%;	
+	
+	
+}
+.navbar{
+	background: linear-gradient(to bottom right,#0D010E 10%,#350C34 20%,#652761,#8F4787,#BC86B9);
+
+	width: 100%;
+	position: fixed;
+	top: 0px; 
+	left: 0px; 
+	height: 100px;
+	display: flex;
+	align-items: center;
+	z-index: 5;
+/*	padding: 20px;*/
+}
+nav{
+	position: sticky;
+	top: 0px;
+	flex: 1;
+	text-align: right;
+	margin-right: 50px;
+	
+}
+nav a{
+	text-decoration: none;
+	color: #F6CACA;
+}
+nav a:hover{
+	color: #ff0088;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+nav ul{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li{
+	font-size: 20px;
+	display: inline-block;
+	margin-right: 25px;
+	margin-top: 0px;
+}
+nav ul li:hover{
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 2px 9px;
+	
+}
+
+.contact-details{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contact-details .details{
+	width: 40%;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.contact-details .details span,
+.form-details form span{
+	font-size: 12px;
+}
+
+.contact-details .details h2,
+.form-details form h2{
+	font-size: 26px;
+	line-height: 35px;
+	padding: 20px 0;
+}
+
+.contact-details .details h3{
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+
+.contact-details .details li{
+	list-style: none;
+	display: flex;
+	padding: 10px 0;
+}
+
+.contact-details .details li i{
+	font-size: 14px;
+	padding-right: 22px;
+	width: 0px;
+	height: 0px;
+
+}
+
+.contact-details .details li i .icon{
+	height: 15px;
+	width: 15px;
+	
+}
+
+.contact-details .details li p{
+	margin:0;
+	font-size: 14px;
+}
+
+.contact-details .map{
+	width: 55%;
+	height: 400px;
+	margin-top: 100px;
+}
+
+.contact-details .map iframe{
+	width: 80%;
+	height: 100%;
+}
+
+.form-details{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+	padding: 80px;
+	border: 1px solid #BC86B9;
+}
+
+.form-details form{
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	
+}
+
+.form-details form input,
+.form-details form textarea{
+	width: 100%;
+	padding: 12px 15px;
+	outline: none;
+	margin-bottom: 20px;
+	border: 1px solid #BC86B9;
+}
+
+.form-details form input,
+.form-details form textarea:hover{
+	border:1px solid #652761;
+	cursor: pointer;
+}
+
+.form-details form button{
+	background-color: #652761;
+	color: #f1f1f1;
+	padding: 20px 40px;
+}
+
+.form-details form button:hover{
+	background-color: #350C34;
+	cursor: pointer;
+}
+
+.form-details .people div{
+	padding-bottom: 25px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.form-details .people div img{
+	width: 65px;
+	height: 65px;
+	object-fit: cover;
+	margin-right: 15px;
+}
+
+.form-details .people div p{
+	margin: 0;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+.form-details .people div p span{
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	color: #BC86B9;
+}
+   /* footer css start here */
+
+   .footer{
+	padding: 10px 40px;
+	background-color:purple;
+   }
+   .footer-details{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: flex-start;
+
+   }
+   .sercive{
+	padding: 10px 0;
+	width: 200px;
+	color: aliceblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	cursor: pointer;
+
+   }
+   .sercive span{
+	display: flex;
+	align-items: center;
+   }
+   .sercive span:hover{
+	text-decoration: underline;
+   }
+   .sercive h3{
+	margin-left: -130px;
+	margin-bottom: 20px;
+   }
+   .location-img{
+	width: 20px;
+   }
+   .text{
+	 margin-top: 10px;
+	 font-size: 20px;
+   }
+   .text-1{
+	font-size: 25px;
+	margin-top: 40px;
+	
+	
+	color:white;
+	text-align: center;
+   }
+   .foot{
+	margin-top: -30px;
+	width: 220px;
+   }
+   .foot h3{
+	margin-left: -50px;
+
+   }
+   .social-media{
+	width: 3px;
+	margin: 10x;
+   }
+   .social-img{ 
+	width: 20px;
+	height: 20px;
+   } 
+
+/*start media query*/
+
+@media(max-width:799px) {
+	 
+   .form-details {
+	  padding: 40px;
+   }
+
+   .form-details form {
+	width:50%;
+ }
+
+ .contact-details .details h2, .form-details form h2 {
+    
+    padding: 10px 0;
+}
+
+.map{
+	width: 60%;
+	margin-left: 30px;
+
+}
+
+}
+
+
+
+@media (max-width:599px) {
+	 
+   .contact-details {
+	flex-direction: column;
+   }
+
+   .contact-details .details{
+	width:100%;
+	margin-bottom: 30px;
+   }
+
+   .contact-details .map {
+	  width:100%;
+	 }
+
+   .form-details {
+       margin: 10px;
+	   padding: 30px 10px;
+	   flex-wrap: wrap;
+   }
+
+   .form-details form {
+	width:100%;
+	margin-bottom: 30px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
