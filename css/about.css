@@ -16,15 +16,32 @@ body{
     justify-content: center;
     align-items: center;
 }
-.img-section{
-    flex:1;
-    text-align: center;
-}
-.img-section img{
-    max-width: 100%;
-    height: auto;
+
+.image-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-top: 50px;
+
 }
+.image{
+    background-color: #BC86B9;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 3px #833a82;
+
+}
+
+.img1{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+
 .content-section{
     flex: 1;
     margin-left: 40px;
@@ -108,3 +125,96 @@ nav ul li:hover{
 	padding: 2px 9px;
 	
 }
+
+.offer{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.image:hover{
+    cursor: pointer;
+}
+.image:active{
+    transform: scale(0.8);
+}
+
+.img1{
+	width: 100%;
+    height: 100%;
+}
+    	
+		
+	/* footer css start here */
+    .footer{
+        width: 1500px;
+        background-color:purple;
+       }
+       .footer-details{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 0 10px;
+        
+    
+       }
+       .sercive{
+        padding: 10px 0;
+        width: 200px;
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        cursor: pointer;
+    
+       }
+       .sercive span{
+        display: flex;
+        align-items: center;
+       }
+       .sercive span:hover{
+        text-decoration: underline;
+       }
+      
+       .sercive h3{
+        margin-left: -130px;
+        margin-bottom: 20px;
+       }
+       .location-img{
+        width: 20px;
+       }
+       .text{
+         margin-top: 10px;
+        padding-left: 130px;
+         font-size: 20px;
+       }
+       .text-1{
+        font-size: 25px;
+        margin-top: 40px;
+        
+        
+        color:white;
+        text-align: center;
+       }
+       .foot{
+        margin-top: -30px;
+        width: 220px;
+       }
+       .foot h3{
+        margin-left: -50px;
+    
+       }
+       .social-media{
+        width: 3px;
+        margin: 10x;
+       }
+       .social-img{ 
+        width: 20px;
+        height: 20px;
+       } 
+       .submit_btn{
+        background-color: black;
+       }
+    
