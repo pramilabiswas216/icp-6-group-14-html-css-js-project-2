@@ -199,6 +199,8 @@ header {
     padding: 10px;
     margin: 10px;
     text-align: center;
+    box-shadow: 4px 2px 3px 1px gray;
+    width: 280px;
 }
 
 .cart {
@@ -381,6 +383,7 @@ button:hover {
     .foot h3 {
         margin-left: 0;
     }
+
 }
 
 
