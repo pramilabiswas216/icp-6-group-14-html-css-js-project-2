@@ -63,6 +63,11 @@ nav ul li:hover{
 	text-decoration: none;
 	color: #F6CACA;
 }
+.btn2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 p{
 	
@@ -134,7 +139,6 @@ p{
     border-radius: 5px;
     transition: background-color 0.3s ease;
     margin-bottom: -2px;
-    
 }
 
 .btn:hover {
