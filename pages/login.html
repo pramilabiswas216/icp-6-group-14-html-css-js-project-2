@@ -34,6 +34,9 @@
     
   </div>
             <div class="form-container">
+
+                <h1 class="heading">Login</h1>
+
     
                 <form class="registration-form" onsubmit="data()" action=".././index.html">
     
@@ -58,6 +61,12 @@
                     if(uname=="" || password=="") 
                     {
                         alert("All field are mendatory");
+                        return false;
+                    }
+
+                    else if(isNaN(password))
+                    {
+                        alert("Only number are allowed! Please enter valid number");
                         return false;
                     }
 
