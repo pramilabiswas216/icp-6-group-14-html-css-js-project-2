@@ -1,12 +1,12 @@
-.body{background-color:pink;}
+.body{background-color:rgb(163, 161, 161);}
 .heading{background-color: rgb(200, 156, 241);font-size: 60px;border:10px double rgb(56, 3, 105) ;border-radius:50px ;display: flex;justify-content: center;color: white;}
-.product-card{height:440px;width:250px;margin-bottom:20px ;padding-left:20px ;    background-color:rgb(228, 54, 83);box-shadow: 20px white;border-radius: 30px;padding: 1%;margin-top:10px ;position: relative;}
+.product-card{height:440px;width:250px;margin-bottom:20px ;padding-left:20px ;    background-color:white;box-shadow: 20px white;border-radius: 30px;padding: 1%;margin-top:10px ;position: relative;border:black solid 1px ;}
 .img{height: 150px;width: 200px;  border-radius:30px ;margin:20px;margin-left:10%;}
-.product-title{display: flex;justify-content: center;font-size: 30px;margin: 10px;color:white;}
-.product-description{font-size:30pxpx;color:white;}
-.product-price{font-size: 30px;color:white ;display: flex;justify-content: center;}
+.product-title{display: flex;justify-content: center;font-size: 30px;margin: 10px;color:black;}
+.product-description{font-size:30pxpx;color:black;}
+.product-price{font-size: 30px;color:black ;display: flex;justify-content: center;}
 .product-container{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between;margin: 5px;padding: 10px;margin-top: 10px;}
-.product-card:hover{cursor:pointer ;border-radius:60px ;background-color: blueviolet;box-shadow :10px;}
+.product-card:hover{cursor:pointer ;border-radius:60px ;background-color: purple;box-shadow :10px;}
 
 
        .navbar{margin:10px ;height: fit-content;}.quantity-card{display: block;flex-direction: row;padding:30px ;flex-wrap: wrap;}
