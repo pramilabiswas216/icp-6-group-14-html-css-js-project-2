@@ -26,11 +26,11 @@
 		         </div>
 		          <nav>
 			        <ul>
-				    <li><a href="../index.html" >HOME</a></li>
-				    <li><a href="../pages/about.html">ABOUT US</a></li>
-				    <li><a href="../pages/mensware.html">PRODUCT</a></li>
-				    <li><a href="../pages/contact.html">CONTACT</a></li>
-				    <li><a href="../pages/login.html">LOGIN/SIGNUP</a></li>
+				    <li><a href="../index.html" class="navbar_one">HOME</a></li>
+				    <li><a href="../pages/about.html" class="navbar_one">ABOUT US</a></li>
+				    <li><a href="../pages/mensware.html"class="navbar_one">PRODUCT</a></li>
+				    <li><a href="../pages/contact.html"class="navbar_one">CONTACT</a></li>
+				    <li><a href="../pages/login.html"class="navbar_one">LOGIN/SIGNUP</a></li>
 			     </ul>
 			  <img src=".././img/home-img/carticon1.png" width="30px" height="25px">
 		     </nav>
@@ -49,7 +49,7 @@
         <a href="#" class="btn">Shop Now</a>
     </div>
     <div class="col-2">
-        <img src="../img/home-img/mensware_card.jpg" height="550px" alt="Men's Fashion Banner">
+        <img src="../img/home-img/mensware_card.jpg" height="550px" alt="Men's Fashion Banner" class="main_card">
     </div>
 </div>
 
@@ -62,10 +62,15 @@
 
 
  <section class="products">
-	 <div class="product" id="product1">
-		 <img class="casual" src="../img/home-img/frml_img1.webp" alt="Clothing 1">
+	 <div class="product_sep" id="product1">
+		 <img class="casual" src="../img/home-img/frml_img1.webp" alt="Clothing 1" id="imagebox">
 		 <h3>Long Sleeves</h3>
 		 <p class="price">RS. 500</p>
+		 <div class="sub-product">
+			<img src="../img/home-img/frml_img4.webp" alt="" onclick="clickImg(this)">
+			<img src="../img/home-img/frml_img2.webp" alt="" onclick="clickImg(this)">
+			<img src="../img/home-img/frml_img3.webp" alt="" onclick="clickImg(this)">
+		</div>
 
 		 <div class="btns">
 			<img src="../img/home-img/minus-icon.png " height="25px" onclick="decrement()">
@@ -80,10 +85,17 @@
 		</section>
 	 </div>
 
-	 <div class="product" id="product1">
-		 <img class="casual" src="../img/home-img/trauser.webp" alt="Clothing 1">
+	 <div class="product_sep" id="product2">
+		 <img class="casual" src="../img/home-img/trauser.webp" alt="Clothing 1" id="imagebox1">
 		 <h3>Formal Trousers</h3>
 		 <p class="price">RS. 600</p>
+		 <div class="sub-product">
+			<img src="../img/home-img/tr2.webp" alt="" onclick="clickImg1(this)">
+			<img src="../img/home-img/trauser.webp" alt="" onclick="clickImg1(this)">
+			<img src="../img/home-img/tr3.webp" alt="" onclick="clickImg1(this)">
+		</div>
+
+
 		 <div class="btns">
 			<img src="../img/home-img/minus-icon.png " height="25px" onclick="decrement1()">
 
@@ -96,10 +108,17 @@
 			<button  class="btn"  onclick="addToCart1('Formal Trouser', 600)">Add To Cart</button>
 		</section>
 	 </div>
-	 <div class="product" id="product1">
-		 <img class="casual" src="../img/home-img/tshirt.webp" alt="Clothing 1">
+	 <div class="product_sep" id="product1">
+		 <img class="casual" src="../img/home-img/tshirt.webp" alt="Clothing 1" id="imagebox2">
 		 <h3>high neck</h3>
 		 <p class="price">RS. 650</p>
+		 <div class="sub-product">
+			<img src="../img/home-img/tshirt.webp" alt="" onclick="clickImg2(this)">
+			<img src="../img/home-img/highneck2.webp" alt="" onclick="clickImg2(this)">
+			<img src="../img/home-img/highneck3.webp" alt="" onclick="clickImg2(this)">
+		</div>
+
+
 		 <div class="btns">
 			<img src="../img/home-img/minus-icon.png " height="25px" onclick="decrement2()">
 
@@ -112,10 +131,16 @@
 			<button  class="btn"  onclick="addToCart2('high neck', 650)">Add To Cart</button>
 		</section>
 	 </div>
-	 <div class="product" id="product1">
-		 <img class="casual" src="../img/home-img/jogger.webp" alt="Clothing 1">
+	 <div class="product_sep" id="product1">
+		 <img class="casual" src="../img/home-img/jogger.webp" alt="Clothing 1" id="imagebox3">
 		 <h3>Baggy cargo</h3>
 		 <p class="price">RS. 550</p>
+		 <div class="sub-product">
+			<img src="../img/home-img/cargo1.webp" alt="" onclick="clickImg3(this)">
+			<img src="../img/home-img/jogger.webp" alt="" onclick="clickImg3(this)">
+			<img src="../img/home-img/cargo2.webp" alt="" onclick="clickImg3(this)">
+		</div>
+
 		 <div class="btns">
 			<img src="../img/home-img/minus-icon.png " height="25px" onclick="decrement3()">
 
@@ -148,7 +173,8 @@
 
 			<img src="../img/home-img/plus-icon.png" height="25px" onclick="increment4()"> 
 		</div><br>
-		<button class="btn"  onclick="addToCart4('polycotton shirt', 700)">Buy Now</button>
+		<button class="btn"  >Buy Now</button>
+		<button  class="btn"  onclick="addToCart5('polycotton shirt', 700)">Add To Cart</button>
 	</div>
 	<div class="product" id="product1">
 		<img class="casual" src="../img/home-img/casual_img3.webp" alt="Clothing 1">
@@ -947,6 +973,22 @@ alert("can't buy less than one item");
 }
 
 
+function clickImg(subProduct){
+        var fullImg = document.getElementById("imagebox");
+        fullImg.src = subProduct.src
+    }
+    function clickImg1(subProduct){
+        var fullImg = document.getElementById("imagebox1");
+        fullImg.src = subProduct.src
+    }
+     function clickImg2(subProduct){
+         var fullImg = document.getElementById("imagebox2");
+         fullImg.src = subProduct.src
+     }
+     function clickImg3(subProduct){
+         var fullImg = document.getElementById("imagebox3");
+         fullImg.src = subProduct.src
+     }
 
 
 </script>
