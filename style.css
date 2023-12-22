@@ -157,6 +157,7 @@ h3{
 }
 .kid-img{
 	width: 200px;
+	height: 300px;
 }
 .gallery{
 	display: flex;
@@ -196,9 +197,13 @@ h3{
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius:20px ;
 	background-color: purple;
+	color: white;
 }
 
-
+.more-btn a{
+	text-decoration: none;
+	color: white;
+}
 
 
 /* +++++++++++++++++++++++++++++++++++++ */
@@ -242,7 +247,7 @@ h3{
    }
 	.card-container{
 		width: 300px;
-		height: 520px;
+		height: 550px;
 		margin: 20px 20px;
 		border: 2px solid grey;
 		display: flex;
@@ -294,7 +299,7 @@ h3{
 	}
 	.card-container .price{
 		position: absolute;
-		bottom: 110px;
+		bottom: 125px;
 	   
 
 	}
@@ -305,7 +310,7 @@ h3{
 		position: absolute;
 		/* margin-top: 30px 0px; */
 		bottom: 70px;
-		/* border: 2px solid red; */
+		 /* border: 2px solid red; */ */
 	}
 	.quantity-card img{
 		width: 30px;
