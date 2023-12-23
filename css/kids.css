@@ -5,11 +5,11 @@
 .product-title{display: flex;justify-content: center;font-size: 30px;margin: 10px;color:black;}
 .product-description{font-size:30pxpx;color:black;}
 .product-price{font-size: 30px;color:black ;display: flex;justify-content: center;}
-.product-container{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between;margin: 5px;padding: 10px;margin-top: 10px;}
+.product-container{display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between;margin: 5px;padding: 10px;margin-top:100px;}
 .product-card:hover{cursor:pointer ;border-radius:60px ;background-color: purple;box-shadow :10px;}
 
 
-       .navbar{margin:10px ;height: fit-content;}.quantity-card{display: block;flex-direction: row;padding:30px ;flex-wrap: wrap;}
+       .navbar{margin:10px ;height: fit-content;position: fixed;margin: 0%;}.quantity-card{display: block;flex-direction: row;padding:30px ;flex-wrap: wrap;}
        .imgg{height:30px ;}  .product-quantity{font-size:20px ; size:30px;margin-left:30px ;margin-right:30px ;}
        .button{margin-left:30px ;}
 
@@ -92,7 +92,7 @@
 
                    .navbar{
                     background: linear-gradient(to bottom right,#0D010E 10%,#350C34 20%,#652761,#8F4787,#BC86B9);
-                margin-right:2px ;
+                margin-right:2px ;position: fixed;margin: 0%;
                     width:100%;
                     top: 0px; 
                     left: 0px; 
