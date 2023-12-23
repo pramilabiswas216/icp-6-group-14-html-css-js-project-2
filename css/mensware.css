@@ -321,8 +321,40 @@ button:hover {
    }
 
 
+   .sub-product{
+    width: 200px;           
+    display: flex;
+    margin-top: 50px;
+   margin-left: -45px;
+
+}
+.sub-product img{
+    width: 60px;
+    height: 80px;
+    border: 2px solid grey;
+    margin-left: 50px;
+    margin-top:-45px;
+}
+.product_sep {
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 4px 2px 3px 1px gray;
+    width: 300px;
+    height: 480px;
+}
+
+
+
    @media screen and (min-width:400px) and (max-width:768px){
 	
+    .main_card{
+        height: 100px;
+        width: 80px;
+    }
+
+
     .navbar {
         height: 80px; 
     }
