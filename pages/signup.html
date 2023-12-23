@@ -31,26 +31,57 @@
                 </div>
 
             <div class="form-container">
-    
+                    
+                <h1 class="heading">Sign up</h1>
+
                 <form class="signup-form">
 
                     First Name:<br/>
-                    <input type="text" placeholder="First Name" required class="text-menu"><br/><br/>
+                    <input type="text" placeholder="First Name" id="n1" required class="text-menu"><br/><br/>
 
                     Last Name:<br/>
-                    <input type="text" placeholder="Last Name" required class="text-menu"><br/><br/>
+                    <input type="text" placeholder="Last Name" id="n2" required class="text-menu"><br/><br/>
                     Email:<br/>
-                    <input type="email" placeholder="Email or phone number" required class="text-menu"><br/><br/>
+                    <input type="email" placeholder="Email or phone number" id="n3" required class="text-menu"><br/><br/>
                 
                     Password:<br/>
-                    <input type="password" placeholder="password" required class="text-menu"><br/><br/>
+                    <input type="password" placeholder="password" id="n4" required class="text-menu"><br/><br/>
                 
-                    <button class="btn_signup">SignUp</button>
+                    <button onclick="message()" class="btn_signup">SignUp</button>
             
                 </form><br/>
     
-                <p class="next_page">you have an account? <a href="login.html"> Log In</a></p>
+                <p class="next_page">You have an account? <a href="login.html"> Log In</a></p>
                 </div>
+
+                <script>
+                    function message()
+                    {
+            
+                     var a=document.getElementById("n1").value;
+                     var b=document.getElementById("n2").value;
+                     var c=document.getElementById("n3").value;
+                     var d=document.getElementById("n4").value;
+            
+                     if(a=="" || b=="" || c=="" || d=="")
+                     {
+                        alert("All field are mandatory");
+                        return false;
+                     }
+            
+                     else if(isNaN(d))
+                     {
+                        alert("Only number are allowed! Please Enter valid number");
+                        return false;
+                     }
+            
+                     else
+                     {
+                        true;
+                     }
+            
+                    }
+                </script>
 
 </body>
 </html>
